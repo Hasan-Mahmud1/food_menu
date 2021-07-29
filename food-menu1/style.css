@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+}
+body{
+  background-color: #f2f3f7;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+.container{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.menu_title{
+  text-align: center;
+  padding: 20px 0;
+  background-color: tomato;
+
+
+}
+.menu_title h1{
+  color: #fff;
+  font-size: 4vw;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
+}
+h3{
+  color: #fff;
+  position: relative;
+  font-size: 2vw;
+  text-transform: uppercase;
+}
+/* h3::before{
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background-color: #fff;
+  top: 11px;
+  left: 46%;
+}
+h3::after{
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background-color: #fff;
+  top: 11px;
+  right: 46%;
+} */
+.cards{
+margin-top: 30px;
+margin-bottom: 20px;
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+grid-gap: 30px;
+}
+.card{
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+}
+.card_content{
+  padding: 10px;
+}
+h4{
+  font-size: 18px;
+}
+p{
+  color: #444;
+}
+button{
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 20px 0 10px 0;
+  border-radius: 5px;
+  background-color: tomato;
+  cursor: pointer;
+}
